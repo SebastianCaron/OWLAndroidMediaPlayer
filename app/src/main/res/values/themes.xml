@@ -1,0 +1,129 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.OWL" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary</item>
+        <item name="colorOnPrimary">@color/text</item>
+        <item name="android:textColorPrimary">@color/text</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorSecondaryVariant">@color/secondary</item>
+        <item name="colorOnSecondary">@color/text</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/background</item>
+        <!-- Customize your theme here. -->
+        <item name="colorOnBackground">@color/background</item>
+    </style>
+
+    <style name="Theme.OWL" parent="Base.Theme.OWL" />
+
+    <style name="TitreSection">
+        <item name="android:textColor">@color/text</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TitrePlaylists">
+        <item name="android:textColor">@color/text</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TitreLecture">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="ArtisteLecture">
+        <item name="android:textColor">@color/text</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="BasicTitre">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="BasicText">
+        <item name="android:textColor">@color/text</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Text">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <style name="Background">
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="BackgroundItem">
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="PlayBar">
+        <item name="android:background">@color/background</item>
+    </style>
+
+    <style name="Button">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:color">@color/white</item>
+    </style>
+
+    <style name="fillSVG">
+        <item name="android:fillColor">@color/text</item>
+        <item name="android:color">@color/text</item>
+        <item name="android:tint">@color/text</item>
+
+    </style>
+
+    <style name="CustomDialogTheme">
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowMinWidthMajor">100%</item>
+        <item name="android:windowMinWidthMinor">100%</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:layout_gravity">bottom</item>
+    </style>
+
+    <style name="BottomNavigation" parent="Widget.Design.BottomNavigationView">
+         <!-- Couleur de fond pour l'élément sélectionné -->
+        <item name="itemBackground">@android:color/transparent</item> <!-- Fond transparent pour les autres éléments -->
+        <item name="itemIconTint">@color/primary</item> <!-- Couleur de l'icône -->
+        <item name="itemTextColor">@color/text</item> <!-- Couleur du texte -->
+        <item name="android:background">@color/background</item>
+    </style>
+
+    <style name="BackgroundPrimary">
+        <item name="android:background">@color/accent_night</item>
+        <item name="android:backgroundTint">@color/accent_night</item>
+    </style>
+    
+    <style name="Swicth">
+        <item name="android:thumbTint">@color/primary</item>
+        <item name="android:trackTint">@color/primary</item>
+    </style>
+
+    <style name="AlertDialogCustomDefault" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <!-- Couleur de fond du dialogue -->
+        <item name="colorBackgroundFloating">@color/background</item>
+
+        <!-- Couleur des boutons positif et négatif -->
+        <item name="colorAccent">@color/accent</item>
+    </style>
+
+</resources>

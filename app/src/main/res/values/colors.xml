@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="text">#040101</color>
+    <color name="background">#FBF9F9</color>
+    <color name="primary">#004747</color>
+    <color name="secondary">#CDEEEE</color>
+    <color name="accent">#0C70D4</color>
+
+    <color name="transparent">#00000000</color>
+
+    <!-- NIGHT COLOR -->
+    <color name="text_night">#fbf9f9</color>
+    <color name="background_night">#000000</color>
+    <color name="primary_night">#004747</color>
+    <color name="secondary_night">#091a1a</color>
+    <color name="accent_night">#81bcf8</color>
+    <color name="playbar_night">#151212</color>
+
+    <color name="dark_transparent">#F0000000</color>
+    <color name="light_transparent">#F0FFFFFF</color>
+</resources>

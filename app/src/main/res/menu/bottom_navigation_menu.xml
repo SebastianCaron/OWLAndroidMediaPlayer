@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_accueil"
+        android:title="Accueil"
+        android:icon="@drawable/ic_home"
+        />
+
+    <item
+        android:id="@+id/action_explorer"
+        android:title="Explorer"
+        android:icon="@drawable/ic_explore"/>
+
+    <item
+        android:id="@+id/action_bibliotheque"
+        android:title="Bibliothèque"
+        android:icon="@drawable/ic_library"/>
+    <item
+        android:id="@+id/action_settings"
+        android:title="Options"
+        android:icon="@drawable/ic_options"/>
+</menu>

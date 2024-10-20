@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">OWL</string>
+    <string name="title_activity_main_listener">MainListener</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="selected_items_count">%d éléments sélectionnés</string>
+    <string name="titre">Titre</string>
+    <string name="titres">Titres</string>
+    <string name="artiste">Artiste</string>
+    <string name="_0_00">0:00</string>
+    <string name="dropdown">Menu déroulant</string>
+    <string name="add">Ajouter</string>
+    <string name="album">Album</string>
+    <string name="play">Lire</string>
+    <string name="next">Suivant</string>
+    <string name="previous">Précédent</string>
+    <string name="shuffle">Lecture aléatoire</string>
+    <string name="repeat">Répéter</string>
+    <string name="background">Arrière-plan</string>
+    <string name="cover">Couverture</string>
+    <string name="pause">Pause</string>
+    <string name="playlist">Playlist</string>
+    <string name="cr_er">Créer</string>
+    <string name="annuler">Annuler</string>
+    <string name="lire_ensuite">Lire ensuite</string>
+    <string name="ajouter_une_playlist">Ajouter à une playlist</string>
+    <string name="nom_de_la_playlist">Nom de la playlist</string>
+    <string name="valider">Valider</string>
+    <string name="edit">Modifier</string>
+    <string name="editer_la_playlist">Éditer la playlist</string>
+    <string name="supprimer_la_playlist">Supprimer la playlist</string>
+    <string name="clear">Effacer</string>
+    <string name="playlists">Playlists</string>
+    <string name="plus_playlist">+ Playlist</string>
+    <string name="back">Retour</string>
+    <string name="more">Plus</string>
+    <string name="selection_rapide">Sélection rapide</string>
+    <string name="refresh">Actualiser</string>
+    <string name="bibliotheque">Bibliothèque</string>
+    <string name="rechercher">Rechercher</string>
+    <string name="artistes">Artistes</string>
+    <string name="plus">Plus</string>
+    <string name="albums">Albums</string>
+    <string name="param_tres">Options</string>
+    <string name="recharger_les_fichiers">Recharger les fichiers</string>
+    <string name="delete">Supprimer</string>
+    <string name="n_titres">N Titres</string>
+    <string name="tous">Tous</string>
+    <string name="playlist_ajout_e">Playlist ajoutée !</string>
+    <string name="choisissez_un_titre">Choisissez un Titre</string>
+    <string name="titre_ajout">"Titre Ajouté à "</string>
+    <string name="ajout_la_liste_de_lecture">Ajouté à la liste de lecture...</string>
+    <string name="supprimer_la_playlist_q">Supprimer la Playlist ?</string>
+    <string name="automatique">Automatique</string>
+    <string name="mode_nuit">Mode Nuit</string>
+    <string name="logo">Logo</string>
+    <string name="je_rassemble_vos_fichiers_audio_veuillez_patienter">Je rassemble vos fichiers audio, veuillez patienter...</string>
+    <string name="wait">Attendez un peu, j\'ai presque fini...</string>
+    <string name="audio_fini">Récupération des Vignettes Audio terminée !</string>
+
+
+</resources>

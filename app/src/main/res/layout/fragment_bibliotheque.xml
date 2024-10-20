@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/Background">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:tooltipText="none"
+        android:visibility="invisible"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!-- Vous pouvez personnaliser le contenu de la Toolbar ici -->
+        <!-- Par exemple, afficher le nombre d'éléments sélectionnés -->
+        <TextView
+            android:id="@+id/selectedItemCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Text"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/imageViewClearSelected"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            style="@style/fillSVG"
+            android:layout_marginLeft="10dp"
+            app:tint="@color/white"
+            android:contentDescription="@string/clear"
+            android:src="@drawable/ic_clear"/>
+        <ImageView
+            android:id="@+id/imageViewMoreSelected"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            style="@style/fillSVG"
+            android:layout_gravity="right"
+            android:contentDescription="@string/more"
+            android:layout_marginRight="20dp"
+            app:tint="@color/white"
+            android:src="@drawable/ic_more"/>
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:id="@+id/searchContainer"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginStart="24dp"
+            style="@style/TitreSection"
+            android:text="@string/bibliotheque"/>
+
+        <ImageView
+            android:id="@+id/searchIcon"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_search"
+            android:layout_gravity="center"
+            android:layout_marginLeft="8dp"
+            android:contentDescription="@string/rechercher"
+            style="@style/fillSVG"/>
+
+        <EditText
+            android:id="@+id/searchEditText"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="@string/rechercher"
+            android:paddingStart="8dp"
+            android:paddingEnd="-10dp"
+            android:layout_gravity="center"
+            android:inputType="text"
+            android:singleLine="true"/>
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:paddingBottom="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/searchContainer"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
